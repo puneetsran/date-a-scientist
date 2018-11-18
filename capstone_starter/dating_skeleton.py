@@ -388,7 +388,7 @@ print(k_class_pred)
 
 print("\n------------------------------------\n")
 print("Time to run above model (ms):")
-time4 = time.time() - time3
+#time4 = time.time() - time3
 print((time.time() - start_time_4))
 
 pred_k_probability = classifier_k.predict_proba(test_x)
